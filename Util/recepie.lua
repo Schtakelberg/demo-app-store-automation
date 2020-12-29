@@ -7,6 +7,6 @@ return {
 	appVersion = os.getenv('APP_VERSION') or "1.0",
 	projectPath = root .. "/Project",
 	dstPath = root .. '/Util',
-	certificatePath = root .. "/Util/Solar2D_test_build.mobileprovision",
+	certificatePath = root .. "/Util/distribution.mobileprovision",
 	customTemplate = "-angle",
 }
